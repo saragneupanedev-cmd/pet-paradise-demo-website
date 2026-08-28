@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minecraftpro546.github.io/pet-paradise-resort/sitemap.xml

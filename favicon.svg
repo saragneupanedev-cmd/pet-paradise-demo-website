@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Pet Paradise Resort">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FE4F8"/><stop offset="1" stop-color="#38C6E6"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="42%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#FFF3CC"/><stop offset="55%" stop-color="#FFC24D"/><stop offset="1" stop-color="#FF8A3D"/>
+    </radialGradient>
+    <clipPath id="clip"><circle cx="60" cy="60" r="52"/></clipPath>
+  </defs>
+  <circle cx="60" cy="60" r="59" fill="#fff"/>
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="120" height="120" fill="url(#sky)"/>
+    <circle cx="80" cy="42" r="15" fill="url(#sun)"/>
+    <path d="M0 82 Q30 74 60 80 T120 80 V120 H0 Z" fill="#F6D79E"/>
+    <path d="M0 80 Q30 72 60 78 T120 78" fill="none" stroke="#0C97B7" stroke-width="2.5" opacity=".55"/>
+    <g transform="translate(22,34) scale(0.42)" fill="#2C7A55"><path d="M48 160c-2-40-6-78-14-104 6 4 12 10 16 18 1-12-2-24-10-34 10 2 19 8 24 18 2-11 0-22-8-31 12 4 22 13 25 25 4-10 3-21-3-30 14 8 22 22 21 38-8-6-17-9-26-8 7 5 13 12 16 21-9-5-19-7-29-5 6 5 11 12 13 21-8-6-18-8-27-6 5 30 8 66 9 107z"/></g>
+    <g transform="translate(84,92)" fill="#C99B57"><ellipse cx="0" cy="4" rx="5" ry="4"/><ellipse cx="-5" cy="-3" rx="2" ry="2.6"/><ellipse cx="0" cy="-5" rx="2" ry="2.6"/><ellipse cx="5" cy="-3" rx="2" ry="2.6"/></g>
+  </g>
+  <circle cx="60" cy="60" r="55.5" fill="none" stroke="url(#sun)" stroke-width="5"/>
+</svg>
